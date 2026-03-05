@@ -4,3 +4,8 @@ libsystemd-dev [test platform:debian]
 pkg-config  [test platform:debian]
 
 shellcheck [lint platform:ubuntu-noble]
+
+# fedora / rhel
+systemd-libs [test platform:rpm]
+systemd-devel [test platform:rpm]
+pkgconfig [test platform:rpm]
